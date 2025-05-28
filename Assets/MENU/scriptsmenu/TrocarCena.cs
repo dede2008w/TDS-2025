@@ -3,10 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class TrocarCena : MonoBehaviour
 {
-    public string Play;
+    public string a;
 
     public void CarregarCena()
     {
-        SceneManager.LoadScene(Play);
+        SceneManager.LoadScene(a);
+        
     }
 }
